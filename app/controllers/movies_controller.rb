@@ -18,10 +18,8 @@ class MoviesController < ApplicationController
   def update
   end
 
-<<<<<<< HEAD
-
-=======
->>>>>>> master
+def movie_params params.require(:movie).permit(:title, :summary, :youtube_embedded_id, :thumbnail)
 end
 
-  Movie = params [:title][:summary][:youtube_embeded_id][:thumbnail]
+
+  end
