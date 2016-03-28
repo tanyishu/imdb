@@ -15,8 +15,10 @@ class ActorsController < ApplicationController
  def update
  end
 
+ private
+
+def actor_params
+  params.require(:actor).permit(:name, :year_of_birth, :thumbnail)
 end
 
-private
-
-Actor params are :name, :year_of_birth, :thumbnail
+end
