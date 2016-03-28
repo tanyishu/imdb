@@ -18,6 +18,10 @@ class MoviesController < ApplicationController
   def update
   end
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> master
 end
 
   Movie = params [:title][:summary][:youtube_embeded_id][:thumbnail]
